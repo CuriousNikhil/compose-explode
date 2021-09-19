@@ -75,7 +75,7 @@ Which looks like this ..
 
 
 ## Contribution
-Please contribute if you feel there's something missing/wrong or anything you feel right. Just raise the PR I would be happy to accept.
+Please contribute if you feel there's something missing or anything you feel right. Just raise a PR, I would be happy to accept.
 
 
 ## License
