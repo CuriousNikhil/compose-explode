@@ -31,7 +31,7 @@ Just add `explodeOnClick()` modifier on your composable element.
 ### onClick lambda
 Lambda will be called when user clicks the element. You can pass `onClick` if you want to perform any action on click.
 
-```
+```kotlin
 Modifier.explodeOnClick(color = backColor,
           onClick = {
               Toast
@@ -44,28 +44,28 @@ Modifier.explodeOnClick(color = backColor,
 ### durationMillis
 Set the duration of animation, default is 1 sec.
 
-```
+```kotlin
 modifier = Modifier.explodeOnClick(durationMillis=1500)
 ```
 
 ### easing
 Set easing for the animation, default is `LinearEasing`.
 
-```
+```kotlin
 modifier = Modifier.explodeOnClick(easing=LinearEasing)
 ```
 
 ### Color
 Set the color of the animation/particles, default is `Color.Black`.
 
-```
+```kotlin
 modifier = Modifier.explodeOnClick(color = Color.GREEN)
 ```
 
 ### repeatable
 Set if you want to make the animation repeatable again after click.
 
-```
+```kotlin
 modifier = Modifier.explodeOnClick(repeatable = true)
 ```
 
