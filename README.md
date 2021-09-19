@@ -7,6 +7,12 @@ Explode compose elements on click! Just add `explodeOnClick()` modifier!
 </p>
 
 
+
+
+https://user-images.githubusercontent.com/16976114/133916544-6b75a7cc-204f-4619-a533-ec0b47c606b7.mov
+
+
+
 Inspired from [ExplosionField](https://github.com/tyrantgit/ExplosionField)
 
 ## Getting started
