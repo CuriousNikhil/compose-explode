@@ -2,7 +2,9 @@
 
 Explode compose elements on click! Just add `explodeOnClick()` modifier!
 
-// TODO - GIF here
+<p align="center">
+<img src="https://github.com/CuriousNikhil/neumorphic-compose/blob/main/static/complete_screen.png?raw=true" height=400>
+</p>
 
 
 Inspired from [ExplosionField](https://github.com/tyrantgit/ExplosionField)
@@ -13,7 +15,7 @@ Inspired from [ExplosionField](https://github.com/tyrantgit/ExplosionField)
 2. Copy paste the `explodeOnClick.kt` file in your compose project.
 3. That's it
 
-p.s. I'm too lazy to release this on maven. Please bare with me I'll do it soon.
+p.s. I'm too lazy to release this on maven. Please bear with me I'll do it soon.
 
 
 ## Usage
