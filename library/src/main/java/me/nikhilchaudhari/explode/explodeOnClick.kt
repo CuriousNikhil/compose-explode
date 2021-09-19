@@ -222,12 +222,3 @@ internal fun generateParticle(
     particle.alpha = 1f
     return particle
 }
-
-
-
-
-
-
-
-
-
