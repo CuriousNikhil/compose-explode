@@ -2,9 +2,8 @@
 
 Explode compose elements on click! Just add `explodeOnClick()` modifier!
 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/16976114/133917014-298530c8-82b8-4660-bc89-8b085617f44c.gif"/>
-</p>
+![click-me-converted](https://user-images.githubusercontent.com/16976114/133917191-f2778c94-215b-483f-acbb-51c8b2c654f9.gif)
+
 
 Inspired from [ExplosionField](https://github.com/tyrantgit/ExplosionField)
 
@@ -72,9 +71,7 @@ modifier = Modifier.explodeOnClick(repeatable = true)
 
 Which looks like this ..
 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/16976114/133917023-8152dbf2-37df-44ae-bce7-f498da9705ef.gif" />
-</p>
+![kaboom-converted](https://user-images.githubusercontent.com/16976114/133917287-c6d70ba5-96ce-4f61-ac5d-5e04a1fa8b8f.gif)
 
 
 ## Contribution
