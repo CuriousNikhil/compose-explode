@@ -51,6 +51,7 @@ private val W: Float = 1.dp2Px()
  *  Text(
  *    text = text,
  *   modifier = Modifier.explodeOnClick()
+ *   )
  * ```
  */
 @SuppressLint("UnnecessaryComposedModifier")
