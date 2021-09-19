@@ -3,15 +3,8 @@
 Explode compose elements on click! Just add `explodeOnClick()` modifier!
 
 <p align="center">
-<img src="https://github.com/CuriousNikhil/neumorphic-compose/blob/main/static/complete_screen.png?raw=true" height=400>
+<img src="https://user-images.githubusercontent.com/16976114/133917014-298530c8-82b8-4660-bc89-8b085617f44c.gif"/>
 </p>
-
-
-
-
-https://user-images.githubusercontent.com/16976114/133916544-6b75a7cc-204f-4619-a533-ec0b47c606b7.mov
-
-
 
 Inspired from [ExplosionField](https://github.com/tyrantgit/ExplosionField)
 
@@ -79,7 +72,9 @@ modifier = Modifier.explodeOnClick(repeatable = true)
 
 Which looks like this ..
 
-//TODO -Add kaboom gif
+<p align="center">
+<img src="https://user-images.githubusercontent.com/16976114/133917023-8152dbf2-37df-44ae-bce7-f498da9705ef.gif" />
+</p>
 
 
 ## Contribution
