@@ -193,28 +193,22 @@ internal fun generateParticle(
     val particle = Particle()
     particle.radius = V
     if (random.nextFloat() < 0.2f) {
-        particle.baseRadius =
-            V + (X - V) * random.nextFloat()
+        particle.baseRadius = V + (X - V) * random.nextFloat()
     } else {
-        particle.baseRadius =
-            W + (V - W) * random.nextFloat()
+        particle.baseRadius = W + (V - W) * random.nextFloat()
     }
     val nextFloat = random.nextFloat()
     particle.top = height * (0.18f * random.nextFloat() + 0.2f)
-    particle.top =
-        if (nextFloat < 0.2f) particle.top else particle.top + particle.top * 0.2f * random.nextFloat()
+    particle.top = if (nextFloat < 0.2f) particle.top else particle.top + particle.top * 0.2f * random.nextFloat()
     particle.bottom = height * (random.nextFloat() - 0.5f) * 1.8f
-    var f =
-        if (nextFloat < 0.2f) particle.bottom else if (nextFloat < 0.8f) particle.bottom * 0.6f else particle.bottom * 0.3f
+    var f = if (nextFloat < 0.2f) particle.bottom else if (nextFloat < 0.8f) particle.bottom * 0.6f else particle.bottom * 0.3f
     particle.bottom = f
     particle.mag = 4.0f * particle.top / particle.bottom
     particle.neg = -particle.mag / particle.bottom
-    f =
-        centerX + Y * (random.nextFloat() - 0.5f)
+    f = centerX + Y * (random.nextFloat() - 0.5f)
     particle.baseCx = f
     particle.cx = f
-    f =
-        centerY + Y * (random.nextFloat() - 0.5f)
+    f = centerY + Y * (random.nextFloat() - 0.5f)
     particle.baseCy = f
     particle.cy = f
     particle.life = END_VALUE / 10 * random.nextFloat()
